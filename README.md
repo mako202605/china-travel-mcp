@@ -1,3 +1,4 @@
+<!-- mcp-name: io.github.mako202605/china-travel-mcp -->
 # China Travel MCP
 
 [![PyPI version](https://badge.fury.io/py/china-travel-mcp.svg)](https://pypi.org/project/china-travel-mcp/)
