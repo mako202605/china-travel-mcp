@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "china-travel-mcp"
+version = "1.0.0"
+description = "China inbound travel MCP server - search hotels, flights, attractions, plan itineraries, and get travel tips for China"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "mako2026"}
+]
+keywords = ["mcp", "travel", "china", "hotel", "flight", "attraction", "inbound", "tourism"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = [
+    "fastmcp>=2.0.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+china-travel-mcp = "china_travel_mcp:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/china_travel_mcp"]
