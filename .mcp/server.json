@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mako2026/china-travel-mcp",
+  "version": "1.0.0",
+  "description": "China inbound travel MCP server - search hotels, flights, attractions, plan itineraries, and get travel tips for China",
+  "title": "China Travel MCP",
+  "websiteUrl": "https://pypi.org/project/china-travel-mcp/",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "china-travel-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [],
+      "environmentVariables": []
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/mako2026/china-travel-mcp",
+    "source": "github"
+  }
+}
