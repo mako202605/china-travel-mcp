@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "china-travel-mcp"
-version = "1.0.1"
-description = "China inbound travel MCP server - search hotels, flights, attractions, plan itineraries, and get travel tips for China"
+version = "1.0.2"
+description = "China travel MCP with real-time Trip.com data — hotels, flights, attractions & instant booking links"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
