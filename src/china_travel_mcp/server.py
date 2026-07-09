@@ -10,7 +10,7 @@ from fastmcp import FastMCP
 
 # SCF Proxy configuration
 PROXY_URL = "https://1439498936-eu423jdjnd.ap-guangzhou.tencentscf.com"
-PROXY_TOKEN = "tp_tg_8k2mX9vQ4z"
+PROXY_TOKEN = os.environ.get("PROXY_TOKEN", "tp_8k2mX9vQ4z")
 
 
 mcp = FastMCP("china-travel-mcp")

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "china-travel-mcp"
-version = "1.0.2"
+version = "1.0.3"
 description = "China travel MCP with real-time Trip.com data — hotels, flights, attractions & instant booking links"
 readme = "README.md"
 requires-python = ">=3.10"
